@@ -1,0 +1,95 @@
+/* Aula 1 // Barra lateral (Navegação)*/
+
+body {
+    background: #000;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar-nav {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-nav .logo-spotify {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-nav .logo-spotify img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 10px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0 10px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+}
+
+ /* Abaixo está o código CSS do desafio. Deu uns probleminhas mas deu certo. */
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 16px 16px;
+    margin: 20px 0 0 0;
+    color: #b3b3b3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.library-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library-button {
+    display: flex;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+.library-button .fa {
+    margin: 0 0 0 8px;
+    padding: 0 0 0 8px;
+    font-weight: 300;
+}
+
+.fa-plus {
+    margin-left: 100px;
+}
+.button-text {
+    margin-left: 4px;
+    white-space: nowrap
+}
